@@ -107,7 +107,7 @@ a.effect-underline:hover:after {
     animation-timing-function: ease-in-out;
   }
   @keyframes hover {
-    0%   { bottom:0px;}
-    50%  { bottom:30px;}
-    100% { bottom:0px;}
+    0%   { bottom:0px; width: 42px; height: 42px;}
+    50%  { bottom:15px; width: 52px; height: 52px;}
+    100% { bottom:0px;  width: 42px; height: 42px;}
   }
